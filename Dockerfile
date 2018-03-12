@@ -1,4 +1,4 @@
 FROM scratch
-ADD k8s-init-mysql /
-CMD ["/k8s-init-mysql"]
+ADD k8s-init-ldap/
+CMD ["/k8s-init-ldap"]
 
